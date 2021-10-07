@@ -3,6 +3,7 @@
 
 <head>
     <title>test web</title>
+    <link rel="stylesheet" href="external.css">
 </head>
 
 <body>
@@ -88,7 +89,23 @@
     <a href="https://www.prepbytes.com/">Go to prepbytes</a>
     <br>
     <br>
-    <a href="form.html">Go to Form</a>
+    <form>
+        <fieldset>
+            <legend>login form</legend>
+        <label>Username :</label>
+        <br>
+        <input type="text" id="username">
+        <br>
+        <label>Password :</label>
+        <br>
+        <input type="text" value="pass" id="password" style="color: cyan;">
+        <br>
+        <label>Are you sure</label>
+        <input type="checkbox">
+        <br>
+        <input type="button" value="Submit">
+        </fieldset>
+    </form>
 </body>
 
 </html>
