@@ -6,8 +6,18 @@ body{
     font-size: 20px;
 }
 .hel{
-    color: greenyellow !important;
+    color: rgb(47, 196, 255) !important;
 }
 .fonttype{
     font-size: 25px;
+    font-weight: 600;
+    font-family: cursive;
+}
+.name{
+    border: black;
+    border-style: solid;
+    height: 300px;
+    background-image: url("https://www.cis.upenn.edu/~matuszek/cit594-2012/Pages/backtracking_files/treesearch.gif");
+    background-repeat: no-repeat;
+    /* background-image: linear-gradient(45deg,red,cyan ); */
 }
